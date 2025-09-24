@@ -23,7 +23,7 @@ const Hero: FC = () => {
           <div className="flex-1 p-10 md:p-16 text-white">
             <div className="flex items-center gap-2 text-sm text-gray-200 mb-4">
               <FaCheckCircle className="text-green-400" />
-              <span>Welcome to Deploy</span>
+              <span>Welcome to Dploy.fun</span>
             </div>
             <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
               Redefining Token <br />
@@ -31,7 +31,7 @@ const Hero: FC = () => {
               Competitive Edge
             </h1>
             <button className="bg-green-400 text-black px-6 py-3 rounded-full font-semibold shadow-[0_0_15px_#22c55e] hover:bg-green-300 transition">
-              Try It Now
+              Launch Token
             </button>
           </div>
 
