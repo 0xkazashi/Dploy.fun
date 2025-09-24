@@ -10,18 +10,18 @@ const Navbar: FC = () => {
         {/* Logo */}
         <div className="flex items-center gap-2">
           <div className="h-7 w-7 bg-green-400 rounded-sm shadow-[0_0_12px_#22c55e]" />
-          <span className="font-semibold text-lg md:text-xl">Deploy</span>
+          <span className="font-semibold text-lg md:text-xl">Dploy.fun</span>
         </div>
 
         {/* Nav Links */}
         <ul className="hidden md:flex items-center gap-10 text-gray-300">
           <li><Link href="/">Home</Link></li>
-          <li><Link href="/about">About</Link></li>
-          <li><Link href="/pain-point">Pain Point</Link></li>
-          <li><Link href="/solution">Solution</Link></li>
+          <li><Link href="/about">Features</Link></li>
+          <li><Link href="/pain-point">Architecture</Link></li>
+          <li><Link href="/solution">Docs</Link></li>
           <li><Link href="/token">Token</Link></li>
           <li><Link href="/roadmap">Roadmap</Link></li>
-          <li><Link href="/docs">Docs</Link></li>
+          <li><Link href="/docs">Socials</Link></li>
         </ul>
 
         {/* Icons + CTA */}
@@ -35,7 +35,7 @@ const Navbar: FC = () => {
             shadow-[0_0_12px_#22c55e] hover:shadow-[0_0_20px_#22c55e] 
             hover:bg-green-300 transition duration-300 text-sm md:text-base"
           >
-            Try It Now
+            Enter dApp
           </button>
         </div>
       </div>
