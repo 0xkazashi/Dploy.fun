@@ -1,6 +1,6 @@
 "use client";
 
-import { Twitter, Linkedin, Github } from "lucide-react";
+import { Twitter, Telegram, Github } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -30,18 +30,18 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="#services"
+                href="#features"
                 className="hover:text-green-400 transition-colors"
               >
-                Services
+                Features
               </a>
             </li>
             <li>
               <a
-                href="#contact"
+                href="#terms"
                 className="hover:text-green-400 transition-colors"
               >
-                Contact
+                Terms Of Use
               </a>
             </li>
             <li>
@@ -71,7 +71,7 @@ const Footer = () => {
               target="_blank"
               className="p-2 rounded-full bg-green-900/20 hover:bg-green-500/20 text-green-400 transition"
             >
-              <Telegram className="w-5 h-5" />
+              <LinkedIn className="w-5 h-5" />
             </a>
             <a
               href="https://github.com"
