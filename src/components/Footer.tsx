@@ -1,6 +1,6 @@
 "use client";
 
-import { Twitter, Telegram, Github } from "lucide-react";
+import { Twitter, LinkedIn, Github } from "lucide-react";
 
 const Footer = () => {
   return (
