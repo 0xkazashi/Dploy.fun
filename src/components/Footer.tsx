@@ -71,7 +71,7 @@ const Footer = () => {
               target="_blank"
               className="p-2 rounded-full bg-green-900/20 hover:bg-green-500/20 text-green-400 transition"
             >
-              <Linkedin className="w-5 h-5" />
+              <Telegram className="w-5 h-5" />
             </a>
             <a
               href="https://github.com"
